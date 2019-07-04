@@ -5,5 +5,6 @@
 
 # cd $APPCENTER_SOURCE_DIRECTORY
 # npm install -g danger
-swift build
+# swift build
 # swift run danger-swift ci
+danger-swift ci
