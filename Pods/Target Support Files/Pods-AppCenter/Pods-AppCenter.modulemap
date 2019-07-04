@@ -1,0 +1,6 @@
+framework module Pods_AppCenter {
+  umbrella header "Pods-AppCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}
