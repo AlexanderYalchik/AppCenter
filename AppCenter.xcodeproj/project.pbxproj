@@ -16,6 +16,7 @@
 		A2B45C7422CE38F4000F2F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B45C7222CE38F4000F2F92 /* LaunchScreen.storyboard */; };
 		A2B45C7F22CE38F4000F2F92 /* AppCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B45C7E22CE38F4000F2F92 /* AppCenterTests.swift */; };
 		A2B45C8A22CE38F4000F2F92 /* AppCenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B45C8922CE38F4000F2F92 /* AppCenterUITests.swift */; };
+		A2B45C9922CE696F000F2F92 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B45C9822CE696F000F2F92 /* Test.swift */; };
 		E1303BD517C2458BCC48A142 /* Pods_AppCenterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B68DCCA688CBAF58C6FC111 /* Pods_AppCenterUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		A2B45C8522CE38F4000F2F92 /* AppCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B45C8922CE38F4000F2F92 /* AppCenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCenterUITests.swift; sourceTree = "<group>"; };
 		A2B45C8B22CE38F4000F2F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B45C9822CE696F000F2F92 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		AF8D663C76FA714CD141CBF6 /* Pods_AppCenterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppCenterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43F95955E7899F9E9A20D9A /* Pods-AppCenterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCenterUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppCenterUITests/Pods-AppCenterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC51BAF163E3496E1EAEC771 /* Pods-AppCenterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCenterTests.release.xcconfig"; path = "Target Support Files/Pods-AppCenterTests/Pods-AppCenterTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,7 +111,6 @@
 				C43F95955E7899F9E9A20D9A /* Pods-AppCenterUITests.debug.xcconfig */,
 				E06AB9FCCC9676F60D81548F /* Pods-AppCenterUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,7 @@
 				A2B45C7022CE38F4000F2F92 /* Assets.xcassets */,
 				A2B45C7222CE38F4000F2F92 /* LaunchScreen.storyboard */,
 				A2B45C7522CE38F4000F2F92 /* Info.plist */,
+				A2B45C9822CE696F000F2F92 /* Test.swift */,
 			);
 			path = AppCenter;
 			sourceTree = "<group>";
@@ -371,6 +373,7 @@
 			files = (
 				A2B45C6C22CE38F3000F2F92 /* ViewController.swift in Sources */,
 				A2B45C6A22CE38F3000F2F92 /* AppDelegate.swift in Sources */,
+				A2B45C9922CE696F000F2F92 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
