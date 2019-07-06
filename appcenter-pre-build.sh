@@ -7,3 +7,7 @@
 # npm install -g danger
 # swift build
 # swift run danger-swift ci
+
+#!/usr/bin/env bash
+  bundle install
+  bundle exec danger
