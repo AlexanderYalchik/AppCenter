@@ -4,10 +4,18 @@
 # swift build
 # swift run danger-swift ci
 
-# Setup
-npm install -g danger@alpha           # Get DangerJS
-brew install marathon-swift           # Install the SwiftPM app installer
-marathon install danger/danger-swift  # Install danger-swift locally
+# # Setup
+# npm install -g danger@alpha           # Get DangerJS
+# brew install marathon-swift           # Install the SwiftPM app installer
+# marathon install danger/danger-swift  # Install danger-swift locally
+#
+# # Script
+# danger process danger-swift ci           # Run Danger
+
+npm install -g danger                 # Get DangerJS
+brew install danger/tap/danger-swift  # Install danger-swift locally
 
 # Script
-danger process danger-swift ci           # Run Danger
+# danger process danger-swift           # Run Danger
+swift build
+swift run danger-swift ci
