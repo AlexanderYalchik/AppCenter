@@ -12,8 +12,11 @@
 # # Script
 # danger process danger-swift ci           # Run Danger
 
+cd $APPCENTER_SOURCE_DIRECTORY
 npm install -g danger                 # Get DangerJS
-brew install danger/tap/danger-swift  # Install danger-swift locally
+# brew install danger/tap/danger-swift  # Install danger-swift locally
+brew install marathon-swift           # Install the SwiftPM app installer
+marathon install danger/danger-swift
 
 # Script
 # danger process danger-swift           # Run Danger
