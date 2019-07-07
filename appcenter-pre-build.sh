@@ -10,4 +10,4 @@ brew install marathon-swift           # Install the SwiftPM app installer
 marathon install danger/danger-swift  # Install danger-swift locally
 
 # Script
-danger process danger-swift           # Run Danger
+danger process danger-swift ci           # Run Danger
